@@ -1,0 +1,27 @@
+items:
+-   label: 介绍
+    file: README.md
+-   label: 更新历史
+    file: history.md
+
+-   label: 快速开始
+-   label: 基本功能
+    file: quick-start/basic.md
+-   label: 插件功能
+    file: quick-start/plugin.md
+-   label: 调试命令
+    file: quick-start/command.md
+-   label: 配置文件
+    file: quick-start/config.md
+
+-   label: Lua脚本
+-   label: 必读介绍
+    file: ./lua/required-intro.md
+-   label: 开发环境
+    file: ./lua/develop.md
+-   label: 常用接口
+    file: ./lua/api.md
+-   label: 插件编写
+    file: ./lua/write-plugin.md
+# -   label: Rust插件
+#     file: rust-plugin.md
