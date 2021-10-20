@@ -1,7 +1,7 @@
 {
     "locale": "en",
     "navbar": {
-        "title": "",
+        "title": "UDBG",
         "logo": {
             "alt": "udbg logo",
             "src": "/static/image/udbg.png"
@@ -12,14 +12,15 @@
                 "url": "/get_started/en/",
                 "label": "Install",
                 "position": "left"
-            },            {
+            },
+            {
                 "url": "/blog/",
                 "label": "Blog",
                 "position": "left"
             },
             {
-                "url": "https://github.com/neutree/teedoc",
-                "label": "github",
+                "url": "https://github.com/udbg/udbg",
+                "label": "Github",
                 "target": "_blank",
                 "position": "right"
             },
@@ -64,16 +65,6 @@
             }
         ],
         "bottom": [
-            {
-                "label": "*ICP备********号",
-                "url": "https://beian.miit.gov.cn",
-                "target": "_blank"
-            },
-            {
-                "label": "*公网安备***********号",
-                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************",
-                "target": "_blank"
-            }
         ]
     }
 }

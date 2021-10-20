@@ -240,6 +240,8 @@ local result = event.fire('customEvent', 1, 2)
 以下事件都是和调试目标/调试循环相关的事件
 * `targetTargetSuccess` 目标创建/附加成功
 * `targetInitBp` 初始断点(或者叫系统断点)
+* `targetStep` 单步异常
+* `targetBreakpoint` 断点异常
 * `targetTargetEnded` 目标运行结束/Detach
 * `targetException` (tid: integer, code: integer, first: bool)
 * `targetModuleLoad` (m: UDbgModule)

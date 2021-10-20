@@ -39,7 +39,7 @@ udbg客户端启动后，首先执行 `script/__client__.lua`：
   - `__udbg__.lua`会执行`udbg.core`初始化调试器核心逻辑，执行`udbg.ui`初始化和客户端UI相关的API
   - TODO 最终调用`ui.session:request('ui_info', device)`，告知客户端自己的设备ID，并获得在客户端的数据目录路径；
   - 完成上述步骤后，客户端的 `start_session()` 函数才会返回
-- 根据`udbg-config.lua`文件里的`plugins`选项确定插件目录
+- 根据配置文件(udbg-config.lua)里的`plugins`列表确定要加载的插件目录
   - 加载每个插件目录下的客户端初始化脚本 `udbg/client/__init.lua`
   - 加载每个插件目录下的调试器初始化脚本 `udbg/__init.lua`
   - 监听每个插件目录下的 `autorun/` 目录，此目录下的lua文件改动时会被自动执行(在调试器环境中)
