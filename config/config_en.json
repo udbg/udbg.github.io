@@ -64,16 +64,6 @@
             }
         ],
         "bottom": [
-            {
-                "label": "*ICP备********号",
-                "url": "https://beian.miit.gov.cn",
-                "target": "_blank"
-            },
-            {
-                "label": "*公网安备***********号",
-                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************",
-                "target": "_blank"
-            }
         ]
     }
 }
