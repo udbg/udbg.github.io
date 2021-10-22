@@ -5,7 +5,7 @@ udbg使用的是lua5.4版本，在原生lua的基础上，添加了多线程的�
 - [penlight](https://stevedonovan.github.io/Penlight/api/index.html) lua标准库扩展增强
 - [glue](https://luapower.com/glue) lua标准库扩展增强
 - [serpent](https://github.com/pkulchenko/serpent) lua对象序列化库 pretty
-- [cjson](https://github.com/mpx/lua-cjson) [cmsgpack](https://github.com/antirez/lua-cmsgpack) [luaffi](https://github.com/facebookarchive/luaffifb) [luasocket](https://github.com/diegonehab/luasocket) [lfs](https://github.com/keplerproject/luafilesystem) [lqt](https://github.com/lqt5/lqt) [lsqlite3](http://lua.sqlite.org/)
+- [cjson](https://github.com/mpx/lua-cjson) [cmsgpack](https://github.com/antirez/lua-cmsgpack) [cffi-lua](https://github.com/q66/cffi-lua) [luasocket](https://github.com/diegonehab/luasocket) [lfs](https://github.com/keplerproject/luafilesystem) [lqt](https://github.com/lqt5/lqt) [lsqlite3](http://lua.sqlite.org/)
 
 ## 客户端环境与调试器环境
 

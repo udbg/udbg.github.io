@@ -10,7 +10,7 @@
         "items": [
             {
                 "url": "/get_started/en/",
-                "label": "Install",
+                "label": "Get Started",
                 "position": "left"
             },
             {
@@ -52,13 +52,18 @@
                 "label": "Source code",
                 "items": [
                     {
-                        "label": "github",
-                        "url": "https://github.com/neutree/teedoc",
+                        "label": "Github",
+                        "url": "https://github.com/udbg/udbg",
                         "target": "_blank"
                     },
                     {
-                        "label": "website source files",
-                        "url": "https://github.com/teedoc/teedoc.github.io",
+                        "label": "Gitee",
+                        "url": "https://gitee.com/udbg/udbg",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Website source",
+                        "url": "https://github.com/udbg/udbg.github.io",
                         "target": "_blank"
                     }
                 ]

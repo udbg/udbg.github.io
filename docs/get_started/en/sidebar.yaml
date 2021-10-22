@@ -1,4 +1,26 @@
 items:
--   label: Introduction to teedoc
+-   label: Quick Start
+-   label: Introduce
     file: README.md
+-   label: Tutorial
+    file: quick-start/tutorial.md
+-   label: Features
+    file: features.md
+-   label: Debug Command
+    file: quick-start/command.md
+-   label: Configuration
+    file: quick-start/config.md
+-   label: History
+    file: history.md
 
+-   label: Lua Script
+-   label: Required Introduce
+    file: ./lua/required-intro.md
+-   label: Development
+    file: ./lua/develop.md
+-   label: Script Example
+    file: ./lua/script-example.md
+-   label: API
+    file: ./lua/api.md
+-   label: Write Plugin
+    file: ./lua/write-plugin.md

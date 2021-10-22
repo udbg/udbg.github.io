@@ -83,6 +83,21 @@
                     "second_color": "#0a7d43"
                 }
             }
+        },
+        "teedoc-plugin-comments-gitalk": {
+            "from": "pypi",
+            "config": {
+                "contrainer": "comments-container",
+                "env": {
+                    "clientID": "5ac2f58ed3a6f635192d",
+                    "clientSecret": "62b51531a475926120d0555f64fb1c258e6709ef",
+                    "repo": "udbg.github.io",
+                    "owner": "udbg",
+                    "admin": ["metaworm"],
+                    "main_color": "#4caf7d",
+                    "second_color": "#0a7d43"
+                }
+            }
         }
     },
     "rebuild_changes_delay": 1,

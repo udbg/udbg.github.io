@@ -36,11 +36,11 @@ TODO 补充一些用法说明
 
 udbg自带了两套ffi接口
 1. 自己封装的libffi接口 `require 'libffi'` https://github.com/udbg/luadoc/blob/master/libffi.lua
-2. 从0.2版本开始集成了[兼容luajit的luaffi](https://github.com/facebookarchive/luaffifb) `require 'ffi'`
+2. 从0.2版本开始集成了[兼容luajit的cffi-lua](https://github.com/q66/cffi-lua) `require 'cffi'`
 
-udbg自己封装的libffi相比luaffi可以无类型(不用声明参数)调用C函数，但访问结构体比较麻烦；
+udbg自己封装的libffi相比cffi-lua可以无类型(不用声明参数)调用C函数，但访问结构体比较麻烦；
 
-建议用luaffi，文档较多且相对完善 http://luajit.org/ext_ffi.html 如果是临时测试一些接口可以用libffi，比较方便
+建议用cffi-lua，文档较多且相对完善 http://luajit.org/ext_ffi.html 如果是临时测试一些接口可以用libffi，比较方便
 
 以下是自带的libffi库用法介绍
 
