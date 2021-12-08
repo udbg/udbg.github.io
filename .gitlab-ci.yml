@@ -1,0 +1,14 @@
+image: python:3.8-buster
+
+before_script:
+  - pip install -U teedoc
+  - teedoc install
+
+pages:
+  stage: deploy
+  script:
+    - teedoc build
+    - mv build public
+  artifacts:
+    paths:
+    - public
