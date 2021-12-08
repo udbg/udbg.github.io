@@ -8,7 +8,7 @@ pages:
   stage: deploy
   script:
     - teedoc build
-    - mv build public
+    - mv out public
   artifacts:
     paths:
     - public
